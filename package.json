@@ -1,6 +1,6 @@
 {
   "name": "qlik-saas-web-auth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handle Qlik Sense SaaS web authentication",
   "author": {
     "email": "stefan.stoichev@gmail.com",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "module": "dist/index.es.js",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
