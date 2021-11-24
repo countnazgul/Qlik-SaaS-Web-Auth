@@ -1,0 +1,49 @@
+{
+  "name": "qlik-saas-web-auth",
+  "version": "0.0.1",
+  "description": "Handle Qlik Sense SaaS web authentication",
+  "author": {
+    "email": "stefan.stoichev@gmail.com",
+    "name": "Stefan Stoichev @countnazgul",
+    "url": "https://sstoichev.eu"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "qlik",
+    "saas",
+    "authentication"
+  ],
+  "devDependencies": {
+    "@types/enigma.js": "^2.2.2",
+    "@types/qlik-engineapi": "^12.67.10",
+    "rollup": "^2.60.1",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "typescript": "^4.3.2"
+  },
+  "peerDependencies": {
+    "enigma.js": "^2.7.3"
+  },
+  "prettier": {
+    "singleQuote": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Informatiqal/qlik-rest-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Informatiqal/qlik-rest-api/issues"
+  },
+  "homepage": "https://informatiqal.com/qlik-sense-rest-api-package/"
+}
