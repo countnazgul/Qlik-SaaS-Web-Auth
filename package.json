@@ -40,10 +40,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Informatiqal/qlik-rest-api.git"
+    "url": "git+https://github.com/countnazgul/Qlik-SaaS-Web-Auth.git"
   },
   "bugs": {
-    "url": "https://github.com/Informatiqal/qlik-rest-api/issues"
-  },
-  "homepage": "https://informatiqal.com/qlik-sense-rest-api-package/"
+    "url": "https://github.com/countnazgul/Qlik-SaaS-Web-Auth/issues"
+  }
 }
