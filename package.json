@@ -1,6 +1,6 @@
 {
   "name": "qlik-saas-web-auth",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Handle Qlik Sense SaaS web authentication",
   "author": {
     "email": "stefan.stoichev@gmail.com",

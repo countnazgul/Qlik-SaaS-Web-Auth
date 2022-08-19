@@ -7,7 +7,7 @@ export default {
   input: "src/index.ts",
   output: {
     dir: "./dist",
-    sourcemap: true,
+    sourcemap: false,
     format: "es",
   },
   external: [
@@ -18,7 +18,7 @@ export default {
     del({
       targets: "dist/*",
     }),
-    terser(),
+    // terser(),
     typescript({
       typescript: require("typescript"),
     }),
